@@ -1,0 +1,14 @@
+<template>
+  <div>
+    home
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+    created(){
+        console.info('created')
+    }
+}
+</script>
